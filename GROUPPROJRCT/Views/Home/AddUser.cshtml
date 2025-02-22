@@ -1,0 +1,30 @@
+﻿@model GROUPPROJRCT.Models.ModelClass
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>@Html.LabelFor(e => e.username)</td>
+            <td>@Html.EditorFor(e => e.username)</td>
+            <td>@Html.ValidationMessageFor(e => e.username)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(e => e.password)</td>
+            <td>@Html.EditorFor(e => e.password)</td>
+            <td>@Html.ValidationMessageFor(e => e.password)</td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="save" /></td>
+        </tr>
+    </table>
+
+@Html.ActionLink("REGISTER", "Registration", "Home")
+        }
+
+

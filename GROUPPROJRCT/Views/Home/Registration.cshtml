@@ -1,0 +1,66 @@
+﻿@model GROUPPROJRCT.Models.RegistrationModel
+@{
+    ViewBag.Title = "Registration";
+}
+
+<h2>Registration</h2>
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>@Html.LabelFor(e => e.FirstName)</td>
+            <td>@Html.EditorFor(e => e.FirstName)</td>
+            <td>@Html.ValidationMessageFor(e => e.FirstName)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(e => e.LastName)</td>
+            <td>@Html.EditorFor(e => e.LastName)</td>
+            <td>@Html.ValidationMessageFor(e => e.LastName)</td>
+        </tr>
+        <tr>
+        <tr>
+            <td>@Html.LabelFor(e => e.Email)</td>
+            <td>@Html.EditorFor(e => e.Email)</td>
+            <td>@Html.ValidationMessageFor(e => e.Email)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(e => e.PhoneNumber)</td>
+            <td>@Html.EditorFor(e => e.PhoneNumber)</td>
+            <td>@Html.ValidationMessageFor(e => e.PhoneNumber)</td>
+        </tr>
+        <tr>
+        <tr>
+            <td>@Html.LabelFor(e => e.Role)</td>
+            <td>@Html.EditorFor(e => e.Role)</td>
+            <td>@Html.ValidationMessageFor(e => e.Role)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(e => e.Deparmemnt)</td>
+            <td>@Html.EditorFor(e => e.Deparmemnt)</td>
+            <td>@Html.ValidationMessageFor(e => e.Deparmemnt)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(e => e.Password)</td>
+            <td>@Html.EditorFor(e => e.Password)</td>
+            <td>@Html.ValidationMessageFor(e => e.Password)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(e => e.Gender)</td>
+            <td>@Html.EditorFor(e => e.Gender)</td>
+            <td>@Html.ValidationMessageFor(e => e.Gender)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(e => e.Cource)</td>
+            <td>@Html.EditorFor(e => e.Cource)</td>
+            <td>@Html.ValidationMessageFor(e => e.Cource)</td>
+        </tr>
+
+        <tr>
+        <tr>
+            <td><input type="submit" value="REGISTER" /></td>
+        </tr>
+
+        @Html.ActionLink("Login", "AddUser")
+    </table>
+}
