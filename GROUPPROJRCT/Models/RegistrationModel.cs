@@ -32,6 +32,8 @@ namespace GROUPPROJRCT.Models
         public string Job { get; set; }
         [Required]
         public string Designation { get; set; }
+        [Required]
+        public string City { get; set; }
 
 
     }

@@ -64,6 +64,7 @@ namespace GROUPPROJRCT.Models
             cmd.Parameters.AddWithValue("@Cource", obj.Cource);
             cmd.Parameters.AddWithValue("@Job", obj.Job);
             cmd.Parameters.AddWithValue("@Designation", obj.Designation);
+            cmd.Parameters.AddWithValue("@City", obj.City);
             com.Open();
             cmd.ExecuteNonQuery();
             com.Close();
@@ -95,7 +96,8 @@ namespace GROUPPROJRCT.Models
                     Gender = Convert.ToString(dr["Gender"]),
                     Cource = Convert.ToString(dr["Cource"]),
                     Job = Convert.ToString(dr["Job"]),
-                    Designation = Convert.ToString(dr["Designation"])
+                    Designation = Convert.ToString(dr["Designation"]),
+                   City = Convert.ToString(dr["City"])
                 });
             }
             return obj;
