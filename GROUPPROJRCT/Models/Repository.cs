@@ -62,6 +62,8 @@ namespace GROUPPROJRCT.Models
             cmd.Parameters.AddWithValue("@Password", obj.Password);
             cmd.Parameters.AddWithValue("@Gender", obj.Gender);
             cmd.Parameters.AddWithValue("@Cource", obj.Cource);
+            cmd.Parameters.AddWithValue("@Job", obj.Job);
+            cmd.Parameters.AddWithValue("@Designation", obj.Designation);
             com.Open();
             cmd.ExecuteNonQuery();
             com.Close();
@@ -91,7 +93,9 @@ namespace GROUPPROJRCT.Models
                     Deparmemnt = Convert.ToString(dr["Deparmemnt"]),
                     Password = Convert.ToString(dr["Password"]),
                     Gender = Convert.ToString(dr["Gender"]),
-                    Cource = Convert.ToString(dr["Cource"])
+                    Cource = Convert.ToString(dr["Cource"]),
+                    Job = Convert.ToString(dr["Job"]),
+                    Designation = Convert.ToString(dr["Designation"])
                 });
             }
             return obj;

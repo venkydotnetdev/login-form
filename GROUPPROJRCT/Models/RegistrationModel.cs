@@ -28,6 +28,10 @@ namespace GROUPPROJRCT.Models
         public string Gender { get; set; }
         [Required]
         public string Cource{ get; set; }
+        [Required]
+        public string Job { get; set; }
+        [Required]
+        public string Designation { get; set; }
 
 
     }

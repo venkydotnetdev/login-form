@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Beerla\\Desktop\\clone-apps\\login-form\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC4C479-E1B8-4F34-A3DD-23EEA1D67B4F}|GROUPPROJRCT\\GROUPPROJRCT.csproj|c:\\users\\beerla\\desktop\\clone-apps\\login-form\\groupprojrct\\views\\home\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC4C479-E1B8-4F34-A3DD-23EEA1D67B4F}|GROUPPROJRCT\\GROUPPROJRCT.csproj|solutionrelative:groupprojrct\\views\\home\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC4C479-E1B8-4F34-A3DD-23EEA1D67B4F}|GROUPPROJRCT\\GROUPPROJRCT.csproj|c:\\users\\beerla\\desktop\\clone-apps\\login-form\\groupprojrct\\views\\home\\getalluserrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC4C479-E1B8-4F34-A3DD-23EEA1D67B4F}|GROUPPROJRCT\\GROUPPROJRCT.csproj|solutionrelative:groupprojrct\\views\\home\\getalluserrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC4C479-E1B8-4F34-A3DD-23EEA1D67B4F}|GROUPPROJRCT\\GROUPPROJRCT.csproj|c:\\users\\beerla\\desktop\\clone-apps\\login-form\\groupprojrct\\models\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC4C479-E1B8-4F34-A3DD-23EEA1D67B4F}|GROUPPROJRCT\\GROUPPROJRCT.csproj|solutionrelative:groupprojrct\\models\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC4C479-E1B8-4F34-A3DD-23EEA1D67B4F}|GROUPPROJRCT\\GROUPPROJRCT.csproj|c:\\users\\beerla\\desktop\\clone-apps\\login-form\\groupprojrct\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC4C479-E1B8-4F34-A3DD-23EEA1D67B4F}|GROUPPROJRCT\\GROUPPROJRCT.csproj|solutionrelative:groupprojrct\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC4C479-E1B8-4F34-A3DD-23EEA1D67B4F}|GROUPPROJRCT\\GROUPPROJRCT.csproj|c:\\users\\beerla\\desktop\\clone-apps\\login-form\\groupprojrct\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0FC4C479-E1B8-4F34-A3DD-23EEA1D67B4F}|GROUPPROJRCT\\GROUPPROJRCT.csproj|solutionrelative:groupprojrct\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Beerla\\Desktop\\clone-apps\\login-form\\GROUPPROJRCT\\Models\\Repository.cs",
+              "RelativeDocumentMoniker": "GROUPPROJRCT\\Models\\Repository.cs",
+              "ToolTip": "C:\\Users\\Beerla\\Desktop\\clone-apps\\login-form\\GROUPPROJRCT\\Models\\Repository.cs",
+              "RelativeToolTip": "GROUPPROJRCT\\Models\\Repository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwGAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:46:53.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationModel.cs",
+              "DocumentMoniker": "C:\\Users\\Beerla\\Desktop\\clone-apps\\login-form\\GROUPPROJRCT\\Models\\RegistrationModel.cs",
+              "RelativeDocumentMoniker": "GROUPPROJRCT\\Models\\RegistrationModel.cs",
+              "ToolTip": "C:\\Users\\Beerla\\Desktop\\clone-apps\\login-form\\GROUPPROJRCT\\Models\\RegistrationModel.cs",
+              "RelativeToolTip": "GROUPPROJRCT\\Models\\RegistrationModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wB8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:46:06.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beerla\\Desktop\\clone-apps\\login-form\\GROUPPROJRCT\\Views\\Home\\Registration.cshtml",
+              "RelativeDocumentMoniker": "GROUPPROJRCT\\Views\\Home\\Registration.cshtml",
+              "ToolTip": "C:\\Users\\Beerla\\Desktop\\clone-apps\\login-form\\GROUPPROJRCT\\Views\\Home\\Registration.cshtml",
+              "RelativeToolTip": "GROUPPROJRCT\\Views\\Home\\Registration.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwEEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T09:45:46.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Beerla\\Desktop\\clone-apps\\login-form\\GROUPPROJRCT\\Views\\Web.config",
+              "RelativeDocumentMoniker": "GROUPPROJRCT\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\Beerla\\Desktop\\clone-apps\\login-form\\GROUPPROJRCT\\Views\\Web.config",
+              "RelativeToolTip": "GROUPPROJRCT\\Views\\Web.config",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBwAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-22T09:23:11.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllUserRequests.cshtml",
+              "DocumentMoniker": "C:\\Users\\Beerla\\Desktop\\clone-apps\\login-form\\GROUPPROJRCT\\Views\\Home\\GetAllUserRequests.cshtml",
+              "RelativeDocumentMoniker": "GROUPPROJRCT\\Views\\Home\\GetAllUserRequests.cshtml",
+              "ToolTip": "C:\\Users\\Beerla\\Desktop\\clone-apps\\login-form\\GROUPPROJRCT\\Views\\Home\\GetAllUserRequests.cshtml",
+              "RelativeToolTip": "GROUPPROJRCT\\Views\\Home\\GetAllUserRequests.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T09:21:48.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
