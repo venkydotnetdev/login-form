@@ -24,3 +24,5 @@ as
 begin
 select*from user1
 end;
+
+alter table user1 add religion varchar(20)
