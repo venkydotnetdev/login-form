@@ -1,4 +1,4 @@
-// store procudure scripts
+// store procudure scripts & db changes
 
 create procedure proc_add @username varchar(20),@password varchar(20)
 as
