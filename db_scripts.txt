@@ -1,0 +1,26 @@
+// store procudure scripts
+
+create procedure proc_add @username varchar(20),@password varchar(20)
+as
+begin
+insert into login values(@username,@password)
+end;
+
+
+create procedure proc_view
+as
+begin
+select*from login
+end;
+
+create procedure proc_insert @firstname varchar(20),@lastname varchar(20),@email varchar(20),@phonenumber varchar(20),@role varchar(20),@deparmemnt varchar(20),@password varchar(20),@gender varchar(20),@cource varchar(20)
+as
+begin
+insert into user1 values(@firstname,@lastname,@email,@phonenumber,@role,@deparmemnt,@password,@gender,@cource)
+end;
+
+create procedure proc_view
+as
+begin
+select*from user1
+end;
